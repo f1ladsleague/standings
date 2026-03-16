@@ -7,7 +7,6 @@
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/f1ladsleague/sidebetting/main/Logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Theme set strictly to Constructor Red */
         :root { --theme-color: #e10600; --f1-dark: #15151e; --f1-card: #1f1f27; --f1-hover: #2a2a35; }
         
         body { font-family: 'Titillium Web', sans-serif; background-color: var(--f1-dark); color: #fff; margin: 0; padding: 20px; display: flex; justify-content: center; }
@@ -18,15 +17,12 @@
         h1 { text-align: center; text-transform: uppercase; font-weight: 700; margin: 0; }
         .title-border { border-bottom: 2px solid var(--theme-color); padding-bottom: 10px; margin-bottom: 30px; }
 
-        h2 { text-align: center; text-transform: uppercase; color: var(--theme-color); font-size: 20px; margin-bottom: 15px; letter-spacing: 1px; }
-
-        .standings-section { width: 100%; margin-bottom: 40px; }
+        .standings-section { width: 100%; margin-bottom: 20px; }
         .standings-img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border: 1px solid #333; }
         
         @media (max-width: 480px) {
             .container { padding: 15px; }
             h1 { font-size: 22px; }
-            h2 { font-size: 18px; }
         }
     </style>
 </head>
@@ -34,13 +30,13 @@
 
 <div class="container">
     <img src="https://raw.githubusercontent.com/f1ladsleague/sidebetting/main/Logo.png" alt="F1 Lads Logo" class="league-logo">
-    
+    <h1 class="title-border">CHAMPIONSHIP STANDINGS</h1>
+
     <div class="standings-section">
-        <h2>Constructor Standings</h2>
         <img id="img-constructors" src="" class="standings-img" alt="Constructors Standings">
     </div>
 
-    <div class="standings-section">
+    <div class="standings-section" style="margin-bottom: 0;">
         <img id="img-drivers" src="" class="standings-img" alt="Drivers Standings">
     </div>
 </div>
