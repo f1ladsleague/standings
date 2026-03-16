@@ -14,7 +14,13 @@
         
         .league-logo { max-height: 75px; margin: 0 auto 15px auto; display: block; border-radius: 6px; }
         
-        h1 { text-align: center; text-transform: uppercase; font-weight: 700; margin: 0; }
+        h1 { 
+            font-family: 'Formula1', sans-serif; /* THIS IS THE MISSING PIECE */
+            text-align: center; 
+            text-transform: uppercase; 
+            font-weight: normal; /* Set to normal because the font itself is already bold */
+            margin: 0; 
+        }
         .title-border { border-bottom: 2px solid var(--theme-color); padding-bottom: 10px; margin-bottom: 30px; }
 
         .standings-section { width: 100%; margin-bottom: 20px; }
@@ -24,12 +30,19 @@
             .container { padding: 15px; }
             h1 { font-size: 22px; }
         }
+
+        @font-face {
+            font-family: 'Formula1';
+            src: url('https://raw.githubusercontent.com/f1ladsleague/landing-page/main/Formula1.ttf') format('truetype');
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <img src="https://raw.githubusercontent.com/f1ladsleague/sidebetting/main/Logo.png" alt="F1 Lads Logo" class="league-logo">
+    <a href="https://f1lads.com">
+    <img src="https://raw.githubusercontent.com/f1ladsleague/sidebetting/e78422814abd6cb31f36f99696b471262536d272/Logo.png" alt="F1 Lads Logo" class="league-logo">
+    </a>
     <h1 class="title-border">CHAMPIONSHIP STANDINGS</h1>
 
     <div class="standings-section">
