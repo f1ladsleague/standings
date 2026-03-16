@@ -10,27 +10,29 @@
         :root { --theme-color: #00D7B6; --f1-dark: #15151e; --f1-card: #1f1f27; --f1-hover: #2a2a35; }
         
         body { font-family: 'Titillium Web', sans-serif; background-color: var(--f1-dark); color: #fff; margin: 0; padding: 20px; display: flex; justify-content: center; }
-        .container { background: var(--f1-card); width: 100%; max-width: 800px; padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px;}
+        .container { background: var(--f1-card); width: 100%; max-width: 900px; padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px;}
         
         .league-logo { max-height: 75px; margin: 0 auto 15px auto; display: block; border-radius: 6px; }
         
         h1 { text-align: center; text-transform: uppercase; font-weight: 700; margin: 0; }
-        .login-h1-border { border-bottom: 2px solid var(--theme-color); padding-bottom: 10px; margin-bottom: 25px; transition: border-color 0.3s ease; }
+        .title-border { border-bottom: 2px solid var(--theme-color); padding-bottom: 10px; margin-bottom: 25px; transition: border-color 0.3s ease; }
 
-        /* Toggle Buttons */
-        .login-toggle { display: flex; margin-bottom: 25px; background: #1a1a21; border-radius: 8px; overflow: hidden; border: 1px solid #333; }
+        /* Toggle Buttons Centered */
+        .toggle-container { display: flex; justify-content: center; margin-bottom: 25px; }
+        .login-toggle { display: flex; width: 100%; max-width: 500px; background: #1a1a21; border-radius: 8px; overflow: hidden; border: 1px solid #333; }
         .login-toggle button { flex: 1; padding: 15px; border: none; background: transparent; color: #888; font-weight: bold; cursor: pointer; text-transform: uppercase; transition: 0.3s; font-size: 16px; letter-spacing: 1px;}
         .login-toggle button.toggle-active { background: var(--theme-color); color: white; }
 
-        /* Standings Images */
-        .standings-wrapper { display: flex; justify-content: center; align-items: center; width: 100%; }
-        .standings-img { width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #333; box-shadow: 0 4px 15px rgba(0,0,0,0.4); }
+        /* Standings Images - No Cropping */
+        .standings-wrapper { width: 100%; display: flex; justify-content: center; }
+        .standings-img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); }
         
         .hidden { display: none !important; }
 
         @media (max-width: 480px) {
-            .container { padding: 20px; }
-            .login-toggle button { font-size: 14px; padding: 12px; }
+            .container { padding: 15px; }
+            .login-toggle button { font-size: 13px; padding: 12px; }
+            h1 { font-size: 22px; }
         }
     </style>
 </head>
@@ -38,11 +40,13 @@
 
 <div class="container">
     <img src="https://raw.githubusercontent.com/f1ladsleague/sidebetting/main/Logo.png" alt="F1 Lads Logo" class="league-logo">
-    <h1 class="login-h1-border">CHAMPIONSHIP STANDINGS</h1>
+    <h1 class="title-border" id="main-title">CHAMPIONSHIP STANDINGS</h1>
 
-    <div class="login-toggle">
-        <button id="btn-drivers" class="toggle-active" onclick="setStandingsMode('Drivers')">Driver Standings</button>
-        <button id="btn-constructors" onclick="setStandingsMode('Constructors')">Constructor Standings</button>
+    <div class="toggle-container">
+        <div class="login-toggle">
+            <button id="btn-drivers" class="toggle-active" onclick="setStandingsMode('Drivers')">Drivers</button>
+            <button id="btn-constructors" onclick="setStandingsMode('Constructors')">Constructors</button>
+        </div>
     </div>
 
     <div class="standings-wrapper">
@@ -52,13 +56,14 @@
 </div>
 
 <script>
-    // CACHE BUSTER: Forces the browser to grab the newest uploaded image instead of a saved old one
+    const DRIVER_PHOTO_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/a05657d7f061be7f8ec40e83781a00fb7dd69062/Standings_Photos/drivers.png";
+    const CONSTRUCTOR_PHOTO_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/a05657d7f061be7f8ec40e83781a00fb7dd69062/Standings_Photos/constructors.png";
+
     window.onload = () => {
-        const cacheBust = new Date().getTime();
-        
-        // Ensure you create a folder in your GitHub repo called "Standings_Photos"
-        document.getElementById('img-drivers').src = `https://github.com/f1ladsleague/standings/tree/a05657d7f061be7f8ec40e83781a00fb7dd69062/Standings_Photos/drivers.png?v=${cacheBust}`;
-        document.getElementById('img-constructors').src = `https://github.com/f1ladsleague/standings/tree/a05657d7f061be7f8ec40e83781a00fb7dd69062/Standings_Photos/constructors.png?v=${cacheBust}`;
+        // Cache buster ensures the browser doesn't show an old version of the image
+        const cb = new Date().getTime();
+        document.getElementById('img-drivers').src = `${DRIVER_PHOTO_URL}?v=${cb}`;
+        document.getElementById('img-constructors').src = `${CONSTRUCTOR_PHOTO_URL}?v=${cb}`;
     };
 
     function setStandingsMode(mode) {
@@ -66,19 +71,20 @@
         const btnConstructors = document.getElementById('btn-constructors');
         const imgDrivers = document.getElementById('img-drivers');
         const imgConstructors = document.getElementById('img-constructors');
+        const mainTitle = document.getElementById('main-title');
 
         if (mode === 'Drivers') {
             btnDrivers.classList.add('toggle-active');
             btnConstructors.classList.remove('toggle-active');
             imgDrivers.classList.remove('hidden');
             imgConstructors.classList.add('hidden');
-            document.documentElement.style.setProperty('--theme-color', '#00D7B6'); // Mercedes Teal
+            document.documentElement.style.setProperty('--theme-color', '#00D7B6'); // Teal
         } else {
             btnConstructors.classList.add('toggle-active');
             btnDrivers.classList.remove('toggle-active');
             imgConstructors.classList.remove('hidden');
             imgDrivers.classList.add('hidden');
-            document.documentElement.style.setProperty('--theme-color', '#e10600'); // Ferrari Red
+            document.documentElement.style.setProperty('--theme-color', '#e10600'); // Red
         }
     }
 </script>
