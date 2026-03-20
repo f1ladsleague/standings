@@ -1,0 +1,303 @@
+{
+  "SessionType": "Qualification",
+  "RaceType": "Regular",
+  "QualType": "Regular",
+  "SessionStatus": "FullPoints",
+  "SessionPosition": 0,
+  "Date": "2026-03-15T20:00:00",
+  "FastestLapTimeInt": 0,
+  "FastestLapNumLap": 0,
+  "TrackName": "Spa-Francorchamps",
+  "TrackUniqueName": "spa.2007",
+  "IsLiveData": false,
+  "LiveRecordPercent": 0,
+  "IsLiveFullRecord": false,
+  "IsSingleplayerMode": false,
+  "WeatherType": "Clear",
+  "AirTemperature": 0,
+  "TrackTemperature": 0,
+  "TotalLaps": 0,
+  "SessionDuration": "00:00:00",
+  "Drivers": [
+    {
+      "Driver": {
+        "Name": "Mapa"
+      },
+      "RaceNumber": 0,
+      "Position": 1,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 105253,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Sahan"
+      },
+      "RaceNumber": 0,
+      "Position": 2,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 105265,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Shahan"
+      },
+      "RaceNumber": 0,
+      "Position": 3,
+      "Team": {
+        "Name": "Aston Martin",
+        "UniqueName": "aston.martin.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 105863,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Sameera"
+      },
+      "RaceNumber": 0,
+      "Position": 4,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 106307,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Rodda"
+      },
+      "RaceNumber": 0,
+      "Position": 5,
+      "Team": {
+        "Name": "Mercedes",
+        "UniqueName": "mercedes.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 106822,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Eranga"
+      },
+      "RaceNumber": 0,
+      "Position": 6,
+      "Team": {
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 107055,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Shiyan"
+      },
+      "RaceNumber": 0,
+      "Position": 7,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 108606,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Nippa E"
+      },
+      "RaceNumber": 0,
+      "Position": 8,
+      "Team": {
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 118162,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Nuwie G"
+      },
+      "RaceNumber": 0,
+      "Position": 9,
+      "Team": {
+        "Name": "Aston Martin",
+        "UniqueName": "aston.martin.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Dsq",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 0,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Kalpa"
+      },
+      "RaceNumber": 0,
+      "Position": 10,
+      "Team": {
+        "Name": "Mercedes",
+        "UniqueName": "mercedes.2025"
+      },
+      "SeatType": "Primary",
+      "Status": "Dsq",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 0,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 0,
+      "GridPosition": 0,
+      "PitsCount": 0
+    }
+  ]
+}
