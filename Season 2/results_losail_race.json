@@ -1,6 +1,6 @@
 {
   "SessionType": "Race",
-  "RaceType": "Main",
+  "RaceType": "Regular",
   "QualType": "Regular",
   "SessionStatus": "FullPoints",
   "SessionPosition": 1,
@@ -44,8 +44,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 160,
-      "TeamPointsRaw": 160,
+      "DriverPointsRaw": 250,
+      "TeamPointsRaw": 250,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
@@ -72,8 +72,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 130,
-      "TeamPointsRaw": 130,
+      "DriverPointsRaw": 180,
+      "TeamPointsRaw": 180,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
@@ -100,8 +100,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 110,
-      "TeamPointsRaw": 110,
+      "DriverPointsRaw": 150,
+      "TeamPointsRaw": 150,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
@@ -128,8 +128,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 100,
-      "TeamPointsRaw": 100,
+      "DriverPointsRaw": 130,
+      "TeamPointsRaw": 130,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
@@ -156,8 +156,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 80,
-      "TeamPointsRaw": 80,
+      "DriverPointsRaw": 100,
+      "TeamPointsRaw": 100,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
@@ -212,8 +212,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 40,
-      "TeamPointsRaw": 40,
+      "DriverPointsRaw": 60,
+      "TeamPointsRaw": 60,
       "LapsCount": 20,
       "GridPosition": 0,
       "PitsCount": 0
