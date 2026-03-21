@@ -4,7 +4,7 @@
   "QualType": "Regular",
   "SessionStatus": "FullPoints",
   "SessionPosition": 2,
-  "Date": "2025-03-30T20:00:00Z",
+  "Date": "2025-03-30T20:00:00",
   "FastestLapDriver": {
     "Name": "Nuwie G"
   },
@@ -29,8 +29,8 @@
       "RaceNumber": 0,
       "Position": 1,
       "Team": {
-        "Name": "Red Bull",
-        "UniqueName": "red.bull.2023"
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2023"
       },
       "SeatType": "Primary",
       "Status": "Ok",
@@ -57,8 +57,8 @@
       "RaceNumber": 0,
       "Position": 2,
       "Team": {
-        "Name": "McLaren",
-        "UniqueName": "mclaren.2023"
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2023"
       },
       "SeatType": "Primary",
       "Status": "Ok",
