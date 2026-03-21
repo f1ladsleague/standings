@@ -1,10 +1,10 @@
 {
   "SessionType": "Race",
-  "RaceType": "Main",
+  "RaceType": "Regular",
   "QualType": "Regular",
   "SessionStatus": "FullPoints",
   "SessionPosition": 1,
-  "Date": "2024-02-04T20:00:00Z",
+  "Date": "2024-02-04T20:00:00",
   "FastestLapDriver": {
     "Name": "Mapa"
   },
@@ -113,8 +113,8 @@
       "RaceNumber": 0,
       "Position": 4,
       "Team": {
-        "Name": "AlphaTauri",
-        "UniqueName": "alphatauri.2023"
+        "Name": "Alpine",
+        "UniqueName": "alpine.2023"
       },
       "SeatType": "Primary",
       "Status": "Ok",
