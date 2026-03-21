@@ -1,6 +1,6 @@
 {
   "SessionType": "Race",
-  "RaceType": "Main",
+  "RaceType": "Sprint",
   "QualType": "Regular",
   "SessionStatus": "FullPoints",
   "SessionPosition": 1,
@@ -44,8 +44,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 160,
-      "TeamPointsRaw": 160,
+      "DriverPointsRaw": 80,
+      "TeamPointsRaw": 80,
       "LapsCount": 5,
       "GridPosition": 4,
       "PitsCount": 0
@@ -72,8 +72,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 140,
-      "TeamPointsRaw": 140,
+      "DriverPointsRaw": 70,
+      "TeamPointsRaw": 70,
       "LapsCount": 5,
       "GridPosition": 3,
       "PitsCount": 0
@@ -100,8 +100,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 110,
-      "TeamPointsRaw": 110,
+      "DriverPointsRaw": 50,
+      "TeamPointsRaw": 50,
       "LapsCount": 5,
       "GridPosition": 2,
       "PitsCount": 0
@@ -128,38 +128,10 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 90,
-      "TeamPointsRaw": 90,
+      "DriverPointsRaw": 40,
+      "TeamPointsRaw": 40,
       "LapsCount": 5,
       "GridPosition": 8,
-      "PitsCount": 0
-    },
-    {
-      "Driver": {
-        "Name": "Sahan"
-      },
-      "RaceNumber": 0,
-      "Position": 5,
-      "Team": {
-        "Name": "McLaren",
-        "UniqueName": "mclaren.2023"
-      },
-      "SeatType": "Primary",
-      "Status": "Ok",
-      "TimeInt": 517506,
-      "GapInt": 0,
-      "FastestLapTimeInt": 97310,
-      "FastestLapNumLap": 0,
-      "FastestLapValidFlags": 0,
-      "PenaltySecsIngame": 0,
-      "PenaltyPosIngame": 0,
-      "PenaltySecsStewards": 11,
-      "PenaltyPosStewards": 0,
-      "PenaltyPoints": 6,
-      "DriverPointsRaw": 80,
-      "TeamPointsRaw": 80,
-      "LapsCount": 5,
-      "GridPosition": 1,
       "PitsCount": 0
     },
     {
@@ -167,7 +139,7 @@
         "Name": "Nuwie G"
       },
       "RaceNumber": 0,
-      "Position": 6,
+      "Position": 5,
       "Team": {
         "Name": "Red Bull",
         "UniqueName": "red.bull.2023"
@@ -184,8 +156,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 80,
-      "TeamPointsRaw": 80,
+      "DriverPointsRaw": 30,
+      "TeamPointsRaw": 30,
       "LapsCount": 5,
       "GridPosition": 7,
       "PitsCount": 0
@@ -195,7 +167,7 @@
         "Name": "Shiyan"
       },
       "RaceNumber": 0,
-      "Position": 7,
+      "Position": 6,
       "Team": {
         "Name": "McLaren",
         "UniqueName": "mclaren.2023"
@@ -212,8 +184,8 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
-      "DriverPointsRaw": 40,
-      "TeamPointsRaw": 40,
+      "DriverPointsRaw": 20,
+      "TeamPointsRaw": 20,
       "LapsCount": 5,
       "GridPosition": 5,
       "PitsCount": 0
@@ -223,7 +195,7 @@
         "Name": "Eranga"
       },
       "RaceNumber": 0,
-      "Position": 8,
+      "Position": 7,
       "Team": {
         "Name": "Ferrari",
         "UniqueName": "ferrari.2023"
@@ -240,10 +212,38 @@
       "PenaltySecsStewards": 0,
       "PenaltyPosStewards": 0,
       "PenaltyPoints": 0,
+      "DriverPointsRaw": 10,
+      "TeamPointsRaw": 10,
+      "LapsCount": 5,
+      "GridPosition": 6,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Sahan"
+      },
+      "RaceNumber": 0,
+      "Position": 8,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 517506,
+      "GapInt": 0,
+      "FastestLapTimeInt": 97310,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 11,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 6,
       "DriverPointsRaw": 0,
       "TeamPointsRaw": 0,
       "LapsCount": 5,
-      "GridPosition": 6,
+      "GridPosition": 1,
       "PitsCount": 0
     }
   ]
