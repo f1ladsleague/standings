@@ -1,0 +1,250 @@
+{
+  "SessionType": "Race",
+  "RaceType": "Main",
+  "QualType": "Regular",
+  "SessionStatus": "FullPoints",
+  "SessionPosition": 1,
+  "Date": "2025-06-15T20:00:00",
+  "FastestLapDriver": {
+    "Name": "Nuwie G"
+  },
+  "FastestLapTimeInt": 84437,
+  "FastestLapNumLap": 0,
+  "TrackName": "Losail",
+  "TrackUniqueName": "losail.2023",
+  "IsLiveData": false,
+  "LiveRecordPercent": 0,
+  "IsLiveFullRecord": false,
+  "IsSingleplayerMode": false,
+  "WeatherType": "Clear",
+  "AirTemperature": 0,
+  "TrackTemperature": 0,
+  "TotalLaps": 0,
+  "SessionDuration": "00:00:00",
+  "Drivers": [
+    {
+      "Driver": {
+        "Name": "Mapa"
+      },
+      "RaceNumber": 0,
+      "Position": 1,
+      "Team": {
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1307848,
+      "GapInt": 0,
+      "FastestLapTimeInt": 84860,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 160,
+      "TeamPointsRaw": 160,
+      "LapsCount": 14,
+      "GridPosition": 4,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Sahan"
+      },
+      "RaceNumber": 0,
+      "Position": 2,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1310200,
+      "GapInt": 0,
+      "FastestLapTimeInt": 85887,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 130,
+      "TeamPointsRaw": 130,
+      "LapsCount": 14,
+      "GridPosition": 3,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Nuwie G"
+      },
+      "RaceNumber": 0,
+      "Position": 3,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1310107,
+      "GapInt": 0,
+      "FastestLapTimeInt": 84437,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 3,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 4,
+      "DriverPointsRaw": 120,
+      "TeamPointsRaw": 120,
+      "LapsCount": 14,
+      "GridPosition": 1,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Rodda"
+      },
+      "RaceNumber": 0,
+      "Position": 4,
+      "Team": {
+        "Name": "Mercedes",
+        "UniqueName": "mercedes.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1324677,
+      "GapInt": 0,
+      "FastestLapTimeInt": 85450,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 90,
+      "TeamPointsRaw": 90,
+      "LapsCount": 14,
+      "GridPosition": 8,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Shiyan"
+      },
+      "RaceNumber": 0,
+      "Position": 5,
+      "Team": {
+        "Name": "Ferrari",
+        "UniqueName": "ferrari.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1338479,
+      "GapInt": 0,
+      "FastestLapTimeInt": 86909,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 80,
+      "TeamPointsRaw": 80,
+      "LapsCount": 14,
+      "GridPosition": 5,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Eranga"
+      },
+      "RaceNumber": 0,
+      "Position": 6,
+      "Team": {
+        "Name": "McLaren",
+        "UniqueName": "mclaren.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1349725,
+      "GapInt": 0,
+      "FastestLapTimeInt": 87833,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 80,
+      "TeamPointsRaw": 80,
+      "LapsCount": 14,
+      "GridPosition": 7,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Shahan"
+      },
+      "RaceNumber": 0,
+      "Position": 7,
+      "Team": {
+        "Name": "Red Bull",
+        "UniqueName": "red.bull.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Ok",
+      "TimeInt": 1365140,
+      "GapInt": 0,
+      "FastestLapTimeInt": 86824,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 40,
+      "TeamPointsRaw": 40,
+      "LapsCount": 14,
+      "GridPosition": 2,
+      "PitsCount": 0
+    },
+    {
+      "Driver": {
+        "Name": "Kalpa"
+      },
+      "RaceNumber": 0,
+      "Position": 8,
+      "Team": {
+        "Name": "Mercedes",
+        "UniqueName": "mercedes.2023"
+      },
+      "SeatType": "Primary",
+      "Status": "Dnf",
+      "TimeInt": 0,
+      "GapInt": 0,
+      "FastestLapTimeInt": 86788,
+      "FastestLapNumLap": 0,
+      "FastestLapValidFlags": 0,
+      "PenaltySecsIngame": 0,
+      "PenaltyPosIngame": 0,
+      "PenaltySecsStewards": 0,
+      "PenaltyPosStewards": 0,
+      "PenaltyPoints": 0,
+      "DriverPointsRaw": 0,
+      "TeamPointsRaw": 0,
+      "LapsCount": 11,
+      "GridPosition": 6,
+      "PitsCount": 0
+    }
+  ]
+}
