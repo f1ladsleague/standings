@@ -1,3 +1,7 @@
+results_bahrain_qualification.json
+results_bahrain_race.json
+results_monaco_qualification.json
+results_monaco_race.json
 results_spa-francorchamps_qualification.json
 results_spa-francorchamps_race.json
 results_suzuka_qualification.json
