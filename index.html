@@ -15,10 +15,10 @@
         .league-logo { max-height: 75px; margin: 0 auto 15px auto; display: block; border-radius: 6px; }
         
         h1 { 
-            font-family: 'Formula1', sans-serif; /* THIS IS THE MISSING PIECE */
+            font-family: 'Formula1', sans-serif; 
             text-align: center; 
             text-transform: uppercase; 
-            font-weight: normal; /* Set to normal because the font itself is already bold */
+            font-weight: normal; 
             margin: 0; 
         }
         .title-border { border-bottom: 2px solid var(--theme-color); padding-bottom: 10px; margin-bottom: 30px; }
@@ -46,22 +46,47 @@
     <h1 class="title-border">CHAMPIONSHIP STANDINGS</h1>
 
     <div class="standings-section">
-        <img id="img-constructors" src="" class="standings-img" alt="Constructors Standings">
+        <img id="img-sprint-media" src="" class="standings-img" alt="Sprint Race Media" onerror="this.parentElement.style.display='none'">
+    </div>
+
+    <div class="standings-section">
+        <img id="img-sprint-result" src="" class="standings-img" alt="Sprint Race Result" onerror="this.parentElement.style.display='none'">
+    </div>
+
+    <div class="standings-section">
+        <img id="img-feature-media" src="" class="standings-img" alt="Feature Race Media" onerror="this.parentElement.style.display='none'">
+    </div>
+
+    <div class="standings-section">
+        <img id="img-feature-result" src="" class="standings-img" alt="Feature Race Result" onerror="this.parentElement.style.display='none'">
+    </div>
+
+    <div class="standings-section">
+        <img id="img-constructors" src="" class="standings-img" alt="Constructors Standings" onerror="this.parentElement.style.display='none'">
     </div>
 
     <div class="standings-section" style="margin-bottom: 0;">
-        <img id="img-drivers" src="" class="standings-img" alt="Drivers Standings">
+        <img id="img-drivers" src="" class="standings-img" alt="Drivers Standings" onerror="this.parentElement.style.display='none'">
     </div>
 </div>
 
 <script>
-    const DRIVER_PHOTO_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/drivers.png";
+    const SPRINT_MEDIA_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/sprint_race_result_media.png";
+    const SPRINT_RESULT_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/sprint_race_result.png";
+    const FEATURE_MEDIA_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/feature_race_result_media.png";
+    const FEATURE_RESULT_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/feature_race_result.png";
     const CONSTRUCTOR_PHOTO_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/constructors.png";
+    const DRIVER_PHOTO_URL = "https://raw.githubusercontent.com/f1ladsleague/standings/main/Standings_Photos/drivers.png";
 
     window.onload = () => {
-        const cb = new Date().getTime();
-        document.getElementById('img-drivers').src = `${DRIVER_PHOTO_URL}?v=${cb}`;
+        const cb = new Date().getTime(); // Bust the cache so you always see new uploads immediately
+        
+        document.getElementById('img-sprint-media').src = `${SPRINT_MEDIA_URL}?v=${cb}`;
+        document.getElementById('img-sprint-result').src = `${SPRINT_RESULT_URL}?v=${cb}`;
+        document.getElementById('img-feature-media').src = `${FEATURE_MEDIA_URL}?v=${cb}`;
+        document.getElementById('img-feature-result').src = `${FEATURE_RESULT_URL}?v=${cb}`;
         document.getElementById('img-constructors').src = `${CONSTRUCTOR_PHOTO_URL}?v=${cb}`;
+        document.getElementById('img-drivers').src = `${DRIVER_PHOTO_URL}?v=${cb}`;
     };
 </script>
 
