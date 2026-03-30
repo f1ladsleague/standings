@@ -26,6 +26,37 @@
         .standings-section { width: 100%; margin-bottom: 20px; }
         .standings-img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border: 1px solid #333; }
         
+        /* Enlargeable Image Hover Effect */
+        .clickable-img { cursor: zoom-in; transition: transform 0.2s, box-shadow 0.2s; }
+        .clickable-img:hover { transform: scale(1.02); box-shadow: 0 6px 20px rgba(225, 6, 0, 0.4); border-color: var(--theme-color); }
+
+        /* Lightbox Modal Styles */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; 
+            top: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(0,0,0,0.9); 
+            justify-content: center; 
+            align-items: center;
+            cursor: zoom-out;
+            backdrop-filter: blur(5px);
+        }
+        .modal-content {
+            max-width: 95%; 
+            max-height: 95%; 
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+            animation: zoomIn 0.2s ease-out;
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
         @media (max-width: 480px) {
             .container { padding: 15px; }
             h1 { font-size: 30px; }
@@ -58,7 +89,7 @@
     </div>
 
     <div class="standings-section">
-        <img id="img-sprint-result" class="standings-img" alt="Sprint Race Result">
+        <img id="img-sprint-result" class="standings-img clickable-img" alt="Sprint Race Result" onclick="openModal(this)">
     </div>
 
     <div class="standings-section">
@@ -66,8 +97,12 @@
     </div>
 
     <div class="standings-section" style="margin-bottom: 0;">
-        <img id="img-feature-result" class="standings-img" alt="Feature Race Result">
+        <img id="img-feature-result" class="standings-img clickable-img" alt="Feature Race Result" onclick="openModal(this)">
     </div>
+</div>
+
+<div id="image-modal" class="modal" onclick="closeModal()">
+    <img class="modal-content" id="modal-img">
 </div>
 
 <script>
@@ -102,6 +137,19 @@
         loadImage('img-feature-media', FEATURE_MEDIA_URL);
         loadImage('img-feature-result', FEATURE_RESULT_URL);
     };
+
+    // Modal Lightbox Functions
+    const modal = document.getElementById("image-modal");
+    const modalImg = document.getElementById("modal-img");
+
+    function openModal(element) {
+        modal.style.display = "flex";
+        modalImg.src = element.src; // Copies the exact image source to the modal
+    }
+
+    function closeModal() {
+        modal.style.display = "none";
+    }
 </script>
 
 </body>
