@@ -1,8 +1,12 @@
 results_bahrain_qualification.json
 results_bahrain_race.json
+results_las vegas_qualification.json
+results_las vegas_race.json
 results_monaco_qualification.json
 results_monaco_race.json
 results_spa-francorchamps_qualification.json
 results_spa-francorchamps_race.json
+results_spielberg_qualification.json
+results_spielberg_race.json
 results_suzuka_qualification.json
 results_suzuka_race.json
