@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "formatVersion": 1,
+    "exportType": "Session",
+    "exportedAt": "2026-05-17T14:28:23Z",
+    "sourceApplication": "Racing League Tools",
+    "leagueName": "F1 Lads League"
+  },
+  "season": {
+    "seasonName": "Season 5",
+    "championshipName": "F1 2025",
+    "totalRounds": 8,
+    "completedRounds": 8,
+    "isMulticlass": false
+  },
+  "event": {
+    "round": 7,
+    "eventDate": "2026-05-17",
+    "racesCount": 1,
+    "qualificationsCount": 1,
+    "track": {
+      "trackName": "Interlagos",
+      "country": "Brazil",
+      "turnsCount": 15
+    }
+  },
+  "session": {
+    "sessionInfo": {
+      "sessionId": "e394f353-08b3-4e06-b754-b942b0f09e5b",
+      "sessionType": "Qualification",
+      "qualificationType": "Regular",
+      "sessionPosition": 0,
+      "sessionCaption": "Qual",
+      "completedStatus": "Completed",
+      "sessionDate": "2026-05-17T21:00:00+01:00",
+      "driversCount": 10
+    },
+    "fastestLap": {
+      "lapTime": "1:10.026",
+      "lapTimeMs": 70026,
+      "driverName": "Mapa",
+      "lapNumber": 1,
+      "tyreCompound": "Soft"
+    },
+    "qualificationDetails": {
+      "qualificationType": "Regular",
+      "segments": 1,
+      "poleTime": "1:10.026",
+      "poleTimeMs": 70026,
+      "duration": "9:30.288",
+      "durationMs": 570288
+    },
+    "drivers": [
+      {
+        "driverName": "Mapa",
+        "driverInfo": {
+          "nationality": "United Arab Emirates",
+          "raceNumber": 99,
+          "realName": "Madhawa Mapa",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 1,
+        "classificationPosition": 1,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "0",
+        "gapMs": 0,
+        "fastestLapTime": "1:10.026",
+        "fastestLapTimeMs": 70026,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Ferrari",
+          "uniqueId": "ferrari.2025",
+          "fullName": "Scuderia Ferrari",
+          "abbreviation": "FER",
+          "primaryColor": "#FFE80020",
+          "secondaryColor": "#FFFFF200",
+          "country": "Italy"
+        },
+        "qualDetails": {
+          "maxSpeed": 335
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:10.026",
+            "lapTimeMs": 70026,
+            "sector1Time": "17.922",
+            "sector1TimeMs": 17922,
+            "sector2Time": "35.872",
+            "sector2TimeMs": 35872,
+            "sector3Time": "16.231",
+            "sector3TimeMs": 16231,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": true,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Rodda",
+        "driverInfo": {
+          "nationality": "Germany",
+          "raceNumber": 92,
+          "realName": "Nuwi Rodrigo",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 2,
+        "classificationPosition": 2,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.519",
+        "gapMs": 519,
+        "interval": "+0.519",
+        "intervalMs": 519,
+        "fastestLapTime": "1:10.545",
+        "fastestLapTimeMs": 70545,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Mercedes",
+          "uniqueId": "mercedes.2025",
+          "fullName": "Mercedes-AMG Petronas F1 Team",
+          "abbreviation": "MER",
+          "primaryColor": "#FF27F4D2",
+          "secondaryColor": "#FFA3A3A3",
+          "country": "Germany"
+        },
+        "qualDetails": {
+          "maxSpeed": 331
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:10.545",
+            "lapTimeMs": 70545,
+            "sector1Time": "17.922",
+            "sector1TimeMs": 17922,
+            "sector2Time": "36.201",
+            "sector2TimeMs": 36201,
+            "sector3Time": "16.421",
+            "sector3TimeMs": 16421,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Shahan",
+        "driverInfo": {
+          "nationality": "Pakistan",
+          "raceNumber": 13,
+          "realName": "Shahan Withanage",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 3,
+        "classificationPosition": 3,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.756",
+        "gapMs": 756,
+        "interval": "+0.237",
+        "intervalMs": 237,
+        "fastestLapTime": "1:10.782",
+        "fastestLapTimeMs": 70782,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Aston Martin",
+          "uniqueId": "aston.martin.2025",
+          "fullName": "Aston Martin Aramco F1 Team",
+          "abbreviation": "AMR",
+          "primaryColor": "#FF229971",
+          "secondaryColor": "#FFCCF738",
+          "country": "United Kingdom"
+        },
+        "qualDetails": {
+          "maxSpeed": 335
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:10.782",
+            "lapTimeMs": 70782,
+            "sector1Time": "18.019",
+            "sector1TimeMs": 18019,
+            "sector2Time": "36.423",
+            "sector2TimeMs": 36423,
+            "sector3Time": "16.339",
+            "sector3TimeMs": 16339,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Nuwie G",
+        "driverInfo": {
+          "nationality": "Saudi Arabia",
+          "raceNumber": 11,
+          "realName": "Nuwantha Gamage",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 4,
+        "classificationPosition": 4,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.854",
+        "gapMs": 854,
+        "interval": "+0.098",
+        "intervalMs": 98,
+        "fastestLapTime": "1:10.880",
+        "fastestLapTimeMs": 70880,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Aston Martin",
+          "uniqueId": "aston.martin.2025",
+          "fullName": "Aston Martin Aramco F1 Team",
+          "abbreviation": "AMR",
+          "primaryColor": "#FF229971",
+          "secondaryColor": "#FFCCF738",
+          "country": "United Kingdom"
+        },
+        "qualDetails": {
+          "maxSpeed": 335
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:10.880",
+            "lapTimeMs": 70880,
+            "sector1Time": "17.721",
+            "sector1TimeMs": 17721,
+            "sector2Time": "36.730",
+            "sector2TimeMs": 36730,
+            "sector3Time": "16.428",
+            "sector3TimeMs": 16428,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Kalpa",
+        "driverInfo": {
+          "nationality": "Brazil",
+          "raceNumber": 88,
+          "realName": "Kalpa Keragala",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 5,
+        "classificationPosition": 5,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.954",
+        "gapMs": 954,
+        "interval": "+0.100",
+        "intervalMs": 100,
+        "fastestLapTime": "1:10.980",
+        "fastestLapTimeMs": 70980,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Mercedes",
+          "uniqueId": "mercedes.2025",
+          "fullName": "Mercedes-AMG Petronas F1 Team",
+          "abbreviation": "MER",
+          "primaryColor": "#FF27F4D2",
+          "secondaryColor": "#FFA3A3A3",
+          "country": "Germany"
+        },
+        "qualDetails": {
+          "maxSpeed": 334
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:10.980",
+            "lapTimeMs": 70980,
+            "sector1Time": "18.087",
+            "sector1TimeMs": 18087,
+            "sector2Time": "36.174",
+            "sector2TimeMs": 36174,
+            "sector3Time": "16.718",
+            "sector3TimeMs": 16718,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Eranga",
+        "driverInfo": {
+          "nationality": "Australia",
+          "raceNumber": 91,
+          "realName": "Eranga Pelpola",
+          "platform": "Xbox",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 6,
+        "classificationPosition": 6,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+1.165",
+        "gapMs": 1165,
+        "interval": "+0.211",
+        "intervalMs": 211,
+        "fastestLapTime": "1:11.191",
+        "fastestLapTimeMs": 71191,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Red Bull",
+          "uniqueId": "red.bull.2025",
+          "fullName": "Oracle Red Bull Racing",
+          "abbreviation": "RB",
+          "primaryColor": "#FF3671C6",
+          "secondaryColor": "#FFE00008",
+          "country": "Austria"
+        },
+        "qualDetails": {
+          "maxSpeed": 331
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:11.191",
+            "lapTimeMs": 71191,
+            "sector1Time": "18.360",
+            "sector1TimeMs": 18360,
+            "sector2Time": "36.448",
+            "sector2TimeMs": 36448,
+            "sector3Time": "16.381",
+            "sector3TimeMs": 16381,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Shiyan",
+        "driverInfo": {
+          "nationality": "Sri Lanka",
+          "raceNumber": 8,
+          "realName": "Shiyan Kekulkotuwage",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 7,
+        "classificationPosition": 7,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+2.617",
+        "gapMs": 2617,
+        "interval": "+1.452",
+        "intervalMs": 1452,
+        "fastestLapTime": "1:12.643",
+        "fastestLapTimeMs": 72643,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Ferrari",
+          "uniqueId": "ferrari.2025",
+          "fullName": "Scuderia Ferrari",
+          "abbreviation": "FER",
+          "primaryColor": "#FFE80020",
+          "secondaryColor": "#FFFFF200",
+          "country": "Italy"
+        },
+        "qualDetails": {
+          "maxSpeed": 333
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:12.643",
+            "lapTimeMs": 72643,
+            "sector1Time": "18.378",
+            "sector1TimeMs": 18378,
+            "sector2Time": "37.701",
+            "sector2TimeMs": 37701,
+            "sector3Time": "16.563",
+            "sector3TimeMs": 16563,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Nippa E",
+        "driverInfo": {
+          "nationality": "Fiji",
+          "raceNumber": 69,
+          "realName": "Nippa Ekanayake",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 8,
+        "classificationPosition": 8,
+        "lapsCompleted": 1,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+3.215",
+        "gapMs": 3215,
+        "interval": "+0.598",
+        "intervalMs": 598,
+        "fastestLapTime": "1:13.241",
+        "fastestLapTimeMs": 73241,
+        "fastestLapNumber": 1,
+        "fastestLapTyreCompound": "Soft",
+        "team": {
+          "name": "Red Bull",
+          "uniqueId": "red.bull.2025",
+          "fullName": "Oracle Red Bull Racing",
+          "abbreviation": "RB",
+          "primaryColor": "#FF3671C6",
+          "secondaryColor": "#FFE00008",
+          "country": "Austria"
+        },
+        "qualDetails": {
+          "maxSpeed": 334
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "1:13.241",
+            "lapTimeMs": 73241,
+            "sector1Time": "18.931",
+            "sector1TimeMs": 18931,
+            "sector2Time": "37.675",
+            "sector2TimeMs": 37675,
+            "sector3Time": "16.634",
+            "sector3TimeMs": 16634,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": true,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Sameera",
+        "driverInfo": {
+          "nationality": "Sri Lanka",
+          "raceNumber": 98,
+          "realName": "Sameera Malimbada",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 9,
+        "classificationPosition": -1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "team": {
+          "name": "McLaren",
+          "uniqueId": "mclaren.2025",
+          "fullName": "McLaren Formula 1 Team",
+          "abbreviation": "MCL",
+          "primaryColor": "#FFFF8000",
+          "secondaryColor": "#FF333333",
+          "country": "United Kingdom"
+        },
+        "qualDetails": {
+          "maxSpeed": 332
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "0.000",
+            "sector1Time": "1.418",
+            "sector1TimeMs": 1418,
+            "tyreCompound": "Soft",
+            "isValid": true,
+            "isPersonalBest": false,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      },
+      {
+        "driverName": "Sahan",
+        "driverInfo": {
+          "nationality": "Barbados",
+          "raceNumber": 15,
+          "realName": "Sahan Wimalagunaratna",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 10,
+        "classificationPosition": -1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "team": {
+          "name": "McLaren",
+          "uniqueId": "mclaren.2025",
+          "fullName": "McLaren Formula 1 Team",
+          "abbreviation": "MCL",
+          "primaryColor": "#FFFF8000",
+          "secondaryColor": "#FF333333",
+          "country": "United Kingdom"
+        },
+        "qualDetails": {
+          "maxSpeed": 329
+        },
+        "laps": [
+          {
+            "lapNumber": 1,
+            "lapTime": "0.000",
+            "sector1Time": "18.082",
+            "sector1TimeMs": 18082,
+            "sector2Time": "36.730",
+            "sector2TimeMs": 36730,
+            "tyreCompound": "Soft",
+            "isValid": false,
+            "isPersonalBest": false,
+            "isSessionFastest": false,
+            "stintNumber": 1,
+            "lapInStint": 1
+          }
+        ]
+      }
+    ]
+  }
+}
