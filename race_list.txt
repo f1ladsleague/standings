@@ -1,5 +1,9 @@
 results_bahrain_qualification.json
 results_bahrain_race.json
+results_brazil_qualification.json
+results_brazil_race.json
+results_hungary_qualification.json
+results_hungary_race.json
 results_las vegas_qualification.json
 results_las vegas_race.json
 results_monaco_qualification.json
