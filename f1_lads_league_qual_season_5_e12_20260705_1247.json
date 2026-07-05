@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "formatVersion": 1,
+    "exportType": "Session",
+    "exportedAt": "2026-07-05T11:47:13Z",
+    "sourceApplication": "Racing League Tools",
+    "leagueName": "F1 Lads League"
+  },
+  "season": {
+    "seasonName": "Season 5",
+    "championshipName": "F1 2025",
+    "totalRounds": 12,
+    "completedRounds": 12,
+    "isMulticlass": false
+  },
+  "event": {
+    "round": 12,
+    "eventDate": "2026-07-05",
+    "racesCount": 1,
+    "qualificationsCount": 1,
+    "track": {
+      "trackName": "Montreal",
+      "country": "Canada",
+      "turnsCount": 14
+    }
+  },
+  "session": {
+    "sessionInfo": {
+      "sessionId": "a767c09c-f80c-42f6-9c5e-b843b7199a97",
+      "sessionType": "Qualification",
+      "qualificationType": "Regular",
+      "sessionPosition": 0,
+      "sessionCaption": "Qual",
+      "completedStatus": "Completed",
+      "sessionDate": "2026-07-05T21:00:00+00:00",
+      "driversCount": 10
+    },
+    "qualificationDetails": {
+      "qualificationType": "Regular",
+      "segments": 1,
+      "poleTime": "1:11.685",
+      "poleTimeMs": 71685,
+      "duration": "8:30.608",
+      "durationMs": 510608
+    },
+    "drivers": [
+      {
+        "driverName": "Nuwie G",
+        "driverInfo": {
+          "nationality": "Saudi Arabia",
+          "realName": "Nuwantha Gamage",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 1,
+        "classificationPosition": 1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "0",
+        "gapMs": 0,
+        "fastestLapTime": "1:11.685",
+        "fastestLapTimeMs": 71685,
+        "team": {
+          "name": "Aston Martin",
+          "uniqueId": "aston.martin.2025",
+          "fullName": "Aston Martin Aramco F1 Team",
+          "abbreviation": "AMR",
+          "primaryColor": "#FF229971",
+          "secondaryColor": "#FFCCF738",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "driverName": "Sameera",
+        "driverInfo": {
+          "nationality": "Sri Lanka",
+          "realName": "Sameera Malimbada",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 2,
+        "classificationPosition": 2,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.064",
+        "gapMs": 64,
+        "interval": "+0.064",
+        "intervalMs": 64,
+        "fastestLapTime": "1:11.749",
+        "fastestLapTimeMs": 71749,
+        "team": {
+          "name": "McLaren",
+          "uniqueId": "mclaren.2025",
+          "fullName": "McLaren Formula 1 Team",
+          "abbreviation": "MCL",
+          "primaryColor": "#FFFF8000",
+          "secondaryColor": "#FF333333",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "driverName": "Rodda",
+        "driverInfo": {
+          "nationality": "Germany",
+          "realName": "Nuwi Rodrigo",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 3,
+        "classificationPosition": 3,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+0.868",
+        "gapMs": 868,
+        "interval": "+0.804",
+        "intervalMs": 804,
+        "fastestLapTime": "1:12.553",
+        "fastestLapTimeMs": 72553,
+        "team": {
+          "name": "Mercedes",
+          "uniqueId": "mercedes.2025",
+          "fullName": "Mercedes-AMG Petronas F1 Team",
+          "abbreviation": "MER",
+          "primaryColor": "#FF27F4D2",
+          "secondaryColor": "#FFA3A3A3",
+          "country": "Germany"
+        }
+      },
+      {
+        "driverName": "Mapa",
+        "driverInfo": {
+          "nationality": "United Arab Emirates",
+          "realName": "Madhawa Mapa",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 4,
+        "classificationPosition": 4,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+1.331",
+        "gapMs": 1331,
+        "interval": "+0.463",
+        "intervalMs": 463,
+        "fastestLapTime": "1:13.016",
+        "fastestLapTimeMs": 73016,
+        "team": {
+          "name": "Ferrari",
+          "uniqueId": "ferrari.2025",
+          "fullName": "Scuderia Ferrari",
+          "abbreviation": "FER",
+          "primaryColor": "#FFE80020",
+          "secondaryColor": "#FFFFF200",
+          "country": "Italy"
+        }
+      },
+      {
+        "driverName": "Eranga",
+        "driverInfo": {
+          "nationality": "Australia",
+          "realName": "Eranga Pelpola",
+          "platform": "Xbox",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 5,
+        "classificationPosition": 5,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+1.864",
+        "gapMs": 1864,
+        "interval": "+0.533",
+        "intervalMs": 533,
+        "fastestLapTime": "1:13.549",
+        "fastestLapTimeMs": 73549,
+        "team": {
+          "name": "Red Bull",
+          "uniqueId": "red.bull.2025",
+          "fullName": "Oracle Red Bull Racing",
+          "abbreviation": "RB",
+          "primaryColor": "#FF3671C6",
+          "secondaryColor": "#FFE00008",
+          "country": "Austria"
+        }
+      },
+      {
+        "driverName": "Kalpa",
+        "driverInfo": {
+          "nationality": "Brazil",
+          "realName": "Kalpa Keragala",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 6,
+        "classificationPosition": 6,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+2.256",
+        "gapMs": 2256,
+        "interval": "+0.392",
+        "intervalMs": 392,
+        "fastestLapTime": "1:13.941",
+        "fastestLapTimeMs": 73941,
+        "team": {
+          "name": "Mercedes",
+          "uniqueId": "mercedes.2025",
+          "fullName": "Mercedes-AMG Petronas F1 Team",
+          "abbreviation": "MER",
+          "primaryColor": "#FF27F4D2",
+          "secondaryColor": "#FFA3A3A3",
+          "country": "Germany"
+        }
+      },
+      {
+        "driverName": "Sahan",
+        "driverInfo": {
+          "nationality": "Barbados",
+          "realName": "Sahan Wimalagunaratna",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 7,
+        "classificationPosition": 7,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "gap": "+2.430",
+        "gapMs": 2430,
+        "interval": "+0.174",
+        "intervalMs": 174,
+        "fastestLapTime": "1:14.115",
+        "fastestLapTimeMs": 74115,
+        "team": {
+          "name": "McLaren",
+          "uniqueId": "mclaren.2025",
+          "fullName": "McLaren Formula 1 Team",
+          "abbreviation": "MCL",
+          "primaryColor": "#FFFF8000",
+          "secondaryColor": "#FF333333",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "driverName": "Nippa E",
+        "driverInfo": {
+          "nationality": "Fiji",
+          "realName": "Nippa Ekanayake",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 8,
+        "classificationPosition": -1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "team": {
+          "name": "Red Bull",
+          "uniqueId": "red.bull.2025",
+          "fullName": "Oracle Red Bull Racing",
+          "abbreviation": "RB",
+          "primaryColor": "#FF3671C6",
+          "secondaryColor": "#FFE00008",
+          "country": "Austria"
+        }
+      },
+      {
+        "driverName": "Shahan",
+        "driverInfo": {
+          "nationality": "Pakistan",
+          "realName": "Shahan Withanage",
+          "platform": "Ps5",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 9,
+        "classificationPosition": -1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "team": {
+          "name": "Aston Martin",
+          "uniqueId": "aston.martin.2025",
+          "fullName": "Aston Martin Aramco F1 Team",
+          "abbreviation": "AMR",
+          "primaryColor": "#FF229971",
+          "secondaryColor": "#FFCCF738",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "driverName": "Shiyan",
+        "driverInfo": {
+          "nationality": "Sri Lanka",
+          "realName": "Shiyan Kekulkotuwage",
+          "platform": "Pc",
+          "categories": [
+            "F1 Lads League - Season 5"
+          ]
+        },
+        "position": 10,
+        "classificationPosition": -1,
+        "lapsCompleted": 0,
+        "driverPoints": "0",
+        "teamPoints": "0",
+        "team": {
+          "name": "Ferrari",
+          "uniqueId": "ferrari.2025",
+          "fullName": "Scuderia Ferrari",
+          "abbreviation": "FER",
+          "primaryColor": "#FFE80020",
+          "secondaryColor": "#FFFFF200",
+          "country": "Italy"
+        }
+      }
+    ]
+  }
+}
